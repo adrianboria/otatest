@@ -20,7 +20,7 @@ led = machine.Pin(2,machine.Pin.OUT)
 
 while True:
     led.toggle()
-    time.sleep(1)
+    time.sleep(2)
     #led.off()
     #time.sleep(1)
 
